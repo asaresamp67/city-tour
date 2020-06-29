@@ -8,8 +8,17 @@ $mainGreen: #82b340;
 $mainWhite: #fff;
 $mainGrey: #ececec;
 
+html {
+  font-size: 85.5%;
+}
 body {
   font-family: "Open Sans", sans-serif;
   background: $mainWhite;
   color: $mainBlack;
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
 }

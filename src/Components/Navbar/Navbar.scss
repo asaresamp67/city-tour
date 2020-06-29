@@ -31,3 +31,9 @@
     color: $mainWhite;
   }
 }
+
+@media screen and (max-width: 370px) {
+  html {
+    font-size: 50%;
+  }
+}
