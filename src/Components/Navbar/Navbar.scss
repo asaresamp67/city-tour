@@ -1,11 +1,15 @@
-@import "../../index.scss";
+@import '../../index.scss';
 
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background: $mainBlack;
   padding: 0.5rem 1rem;
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
+  z-index: 1000;
 }
 
 .nav-links {
